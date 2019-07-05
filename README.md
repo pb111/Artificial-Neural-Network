@@ -51,8 +51,102 @@
 5.	The final two are sequence to sequence modules which uses two recurrent networks and shallow neural networks which produces a vector space from an amount of text. 
 
 
-
 ===============================================================================
+
+## 4. Introduction to Artificial Neural Network (ANN)
+
+-	An Artificial Neural Network (ANN) is an imitation of the human brain. It functions just like human brain.
+-	ANNs are software implementations of the neuronal structure of our brains.
+-	So, first I will discuss functionality of the human brain.
+
+### The Human Brain
+
+-	The human brain is very capable. It has the ability to learn new things, adapt and work accordingly to changing environment. 
+-	Our brain can analyze incomplete and unclear information and take decisions.
+-	It has the ability to perform tasks such as pattern recognition, perception and control much faster than any computer.
+-	The basic building block of the brain is **biological neuron**.
+
+
+### Biological Neurons
+
+-	The brain contains about 1010 (100 billion) basic units called **neurons** or biological neurons.
+-	Each neuron can connect to about 104 other neurons.
+-	A biological neuron is made up of cell body (soma), axon and dendrite.
+-	The nucleus of the neuron (the cell body) is called **soma** which processes the input.
+-	It contains long irregularly shaped filaments attached to the soma which act as input channels. These are called **dendrites**.
+-	The neuron receives signals from other neurons through dendrites.
+-	Another type of link attached to the soma act as output channels. They are called **axon**.
+-	 Output of the axon is **voltage pulse (spike)** that lasts for a millisecond.
+-	Axon carries the signal from neuron to other neurons.
+-	Axon terminates in a specialized contact called the **synaptic junction**- the electrochemical contact between neurons.
+-	Connection between dendrites of two neurons or neuron to muscle cells is called **synapse**.
+-	The size of synapses are believed to be linked with learning.
+-	When the strength of the signal exceeds a certain threshold, the neuron triggers its own signal to be passed on to the next neuron via the axon using synapses.
+-	The signal sent to other neurons through synapses trigger them, and this process continues.
+-	A huge number of such neurons work simultaneously.
+-	The brain has the capacity to store large amounts of data.
+
+### Artificial Neurons
+
+-	An artificial neuron tries to replicate the structure and behaviour of biological neurons.
+-	It consists of inputs (dendrites) and one output (synapse via axon).
+-	The neuron has a function that determines the activation of the neuron.
+-	The diagram below demonstrates the artificial neuron model and activation function.
+
+# D ! [Artificial Neuron Model]
+
+
+### Working principle of Artificial Neurons
+
+-	The diagram below demonstrates working of artificial neural network model.
+
+# D ! [Working Principle of Artificial Neurons]
+
+-	At the entrance of artificial neuron the inputs are weighted. It means that every input value is multiplied with individual weight.
+-	So, the information comes into the body of an artificial neuron via inputs that are weighted (each input can be individually multiplied with a weight)
+-	In the middle section of artificial neuron is sum function that sums all weighted inputs and bias.
+-	So, the body of an artificial neuron then sums the weighted inputs, bias and then processes the sum with a transfer function.
+-	At the exit of artificial neuron, the sum of previously weighted inputs and bias passed through activation function which is also called transfer function.
+
+### Transfer function
+
+-	We can see from the artificial neuron model that the major unknown variable in the model is the **transfer function**.
+-	Transfer function defines the properties of artificial neuron and can take any mathematical form.
+-	 We choose it on the basis of problem that our ANN model needs to solve.
+-	In most cases, we choose it from the following set of functions – 
+`Step function`, `Linear function` and `Non-linear (Sigmoid) function`.
+
+**Step function**
+
+-	Step function is a binary function that has only two possible output values (e.g. 0 and 1).
+-	That means if input value meets specific threshold, the output results in one value and if specific threshold does not meet, the output results in another value.
+-	When this type of transfer function is used in artificial neuron, it is called **perceptron**.
+
+**Perceptron**
+
+-	Perceptron is used for solving classification problems.
+-	It can be most commonly found in the last layer of artificial neural network.
+
+**Linear transfer function**
+
+-	In case of linear transfer function, artificial neuron is doing simple linear transformation over the sum of weighted inputs and bias.
+-	Such an artificial neuron is in contrast to perceptron, which is most commonly used in the input layer of artificial neural networks.
+
+**Non-linear function**
+
+-	In case of non-linear functions, sigmoid function is the most commonly used.
+-	Sigmoid function has easily calculated derivative.
+-	It is important when calculating weight updates in ANN.
+
+
+### Artificial Neural Network (ANN)
+
+-	When we combine two or more artificial neurons, we get an Artificial Neural Network (ANN).
+-	An Artificial Neural Network (ANN) is a mathematical model that tries to simulate the structure and functionalities of biological neural networks.
+-	Artificial Neural Networks are capable of solving complex real-life problems by processing information in their basic building blocks.
+-	Basic building block of every artificial neural network is artificial neuron.
+-	The nodes created in the ANN are supposedly programmed to behave like actual neurons, and hence they are artificial neurons.
+-	Such a model has three simple sets of rules – multiplication, summation and activation.
 
 ===============================================================================
 
