@@ -1,1 +1,6 @@
-# Artificial Neural Network with Python and Tensorflow
+# Artificial Neural Network Project
+
+
+=========================================================================
+
+## Table of Contents
