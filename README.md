@@ -40,6 +40,18 @@
 
 ===============================================================================
 
+## 3. Types of Neural Network
+
+-	There are seven types of Neural Networks used in practice. These are discussed below-
+
+1.	The first type is a multilayer perceptron. It is called Artificial Neural Network. It has three or more layers and uses a non-linear activation function.
+2.	The second is the Convolutional Neural Network that uses a variation of the multilayer perceptrons.
+3.	The third is the Recursive Neural Network that uses weights to make structured predictions.
+4.	The fourth is the Recurrent Neural Network that makes connections between the neurons in a directed cycle. The long short-term memory neural network uses the recurrent neural network architecture and does not use activation function.
+5.	The final two are sequence to sequence modules which uses two recurrent networks and shallow neural networks which produces a vector space from an amount of text. 
+
+
+
 ===============================================================================
 
 ===============================================================================
