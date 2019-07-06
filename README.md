@@ -288,13 +288,14 @@ The nodes in this layer are active ones.
       - Reinforced learning
       
 -	These three types are classified based on :-
-o	presence or absence of teacher
-o	the information provided for the system to learn
+      - presence or absence of teacher
+      - the information provided for the system to learn.
+      
 -	These learning methods are further categorized, based on the rules used as follows:-
-o	Hebbian
-o	Gradient descent
-o	Competitive
-o	Stochastic learning
+      - Hebbian
+      - Gradient descent
+      - Competitive
+      - Stochastic learning
 
 ### 6.1 Supervised Learning
 -	A teacher is present during learning process and presents expected output.
