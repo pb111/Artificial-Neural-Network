@@ -6,32 +6,59 @@
 ## Table of Contents
 
 1.	Introduction to Deep Learning
+
 2.	Introduction to Neural Network
+
 3.	Types of Neural Network
+
 4.	Introduction to Artificial Neural Network
+
       4.1	The human brain 
+      
       4.2	Biological neurons
+      
       4.3	Artificial neurons
+      
       4.4	Working principle of artificial neurons
+      
       4.5	Transfer function
+      
       4.6	Artificial Neural Network
+      
 5.	ANN architectures
+
       5.1 Feed-forward ANNs
+      
       5.2 Recurrent ANNs
+      
       5.3 Hopfield ANNs
+      
       5.4 Elman and Jordan ANNs
+      
       5.5 Long Short Term Memory
+      
       5.6 Bi-directional ANNs
+      
       5.7 Self-Organizing Maps
+      
       5.8 Stochastic ANNs
+      
       5.9 Physical ANNS
+      
 6.	Learning process in neural networks
+
       6.1 Supervised learning
+      
       6.2 Unsupervised learning
+      
       6.3 Reinforced learning
+      
 7.  The back-propagation algorithm
+
 8. Advantages and disadvantages of ANN
+
 9. ANN Applications
+
 10. References
 
 ===============================================================================
