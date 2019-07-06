@@ -93,6 +93,7 @@
 -	The neuron has a function that determines the activation of the neuron.
 -	The diagram below demonstrates the artificial neuron model and activation function.
 
+### Artiicial Neuron Model
 ![Artificial Neuron Model](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/artificial%20neurons%20model.png)
 
 
