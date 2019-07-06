@@ -93,14 +93,14 @@
 -	The neuron has a function that determines the activation of the neuron.
 -	The diagram below demonstrates the artificial neuron model and activation function.
 
-# D ! [Artificial Neuron Model]
+![Artificial Neuron Model](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/artificial%20neurons%20model.png)
 
 
 ### Working principle of Artificial Neurons
 
 -	The diagram below demonstrates working of artificial neural network model.
 
-# D ! [Working Principle of Artificial Neurons]
+![Working Principle of Artificial Neurons](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Working%20principle%20of%20artificial%20neural%20network%20model.jpg)
 
 -	At the entrance of artificial neuron the inputs are weighted. It means that every input value is multiplied with individual weight.
 -	So, the information comes into the body of an artificial neuron via inputs that are weighted (each input can be individually multiplied with a weight)
@@ -143,6 +143,11 @@
 
 -	When we combine two or more artificial neurons, we get an Artificial Neural Network (ANN).
 -	An Artificial Neural Network (ANN) is a mathematical model that tries to simulate the structure and functionalities of biological neural networks.
+- The diagram below represent the similarities between biological neuron and artificial neural network.
+
+![Biological Neuron Vs Artificial Neural Network](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/biological%20neuron%20vs%20ANN.png)
+
+
 -	Artificial Neural Networks are capable of solving complex real-life problems by processing information in their basic building blocks.
 -	Basic building block of every artificial neural network is artificial neuron.
 -	The nodes created in the ANN are supposedly programmed to behave like actual neurons, and hence they are artificial neurons.
