@@ -319,6 +319,34 @@ The nodes in this layer are active ones.
 
 ===============================================================================
 
+## 8. Advantages and disadvantages of ANN
+
+-	**Advantages of ANN are as follows:-**
+
+1.	A neural network can perform tasks that a linear program cannot. They can work in case of incomplete information.
+2.	A neural network learns and does not need to be reprogrammed.
+3.	They do not require knowledge of algorithm to solve the problem (automatic learning).
+4.	They can process information in a highly parallel way. When an element of a neural network fails, it can continue without any problem by their parallel nature.
+5.	They can generalize to unknown cases. It can be implemented in any application.
+6.	They are resistant to partial damage. It can be implemented without any problem.
+
+
+-	**Disadvantages of ANN are given below:-**
+
+1.	The neural network needs training to operate,
+2.	It requires high processing time for large neural networks.
+3.	The architecture of a neural network is different from the architecture of microprocessors therefore needs to be emulated.
+
 ===============================================================================
+
+## 9. ANN Applications
+
+-	Applications of ANN include:-
+
+1.	**Classification** – the aim is to predict the class of an input vector.
+2.	**Pattern matching** – the task is to produce the best matching pattern associated with a given input vector.
+3.	**Optimization** – the task is to find the optimal values of parameters in an optimization problem.
+4.	**Function approximation** - the aim is to learn the functional relationships between input and desired output vectors.
+5.	**Data mining** - the aim is to discover hidden patterns in the data.
 
 ===============================================================================
