@@ -372,6 +372,16 @@ The nodes in this layer are active ones.
 
 ===============================================================================
 
+## 7. The back-propagation algorithm
+
+-	The back-propagation algorithm is used in layered feed-forward ANNs. 
+-	This means that the artificial neurons are organized in layers, and send their signals “forward”, and then the errors are propagated backwards. 
+-	The network receives inputs by neurons in the input layer, and the output of the network is given by the neurons on an output layer. 
+-	There may be one or more intermediate hidden layers. 
+-	The back-propagation algorithm uses supervised learning, which means that we provide the algorithm with examples of the inputs and outputs we want the network to compute, and then the error (difference between actual and expected results) is calculated. 
+-	The idea of the back-propagation algorithm is to reduce this error, until the ANN learns the training data. 
+-	The training begins with random weights, and the goal is to adjust them so that the       error will be minimal.
+
 ===============================================================================
 
 ## 8. Advantages and disadvantages of ANN
@@ -412,3 +422,26 @@ The nodes in this layer are active ones.
 ===============================================================================
 
 ## 10. References
+
+The ideas and concepts in this projects have been taken from the following books and websites:-
+
+1.	Python Deep Learning Cookbook by Indra den Bakker
+
+2.	Hands on Machine Learning with Scikit-Learn and Tensorflow by Aurélién Géron
+
+3.	https://en.wikipedia.org/wiki/Deep_learning
+
+4.	https://en.wikipedia.org/wiki/Artificial_neural_network
+
+5.	https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/
+
+6.	https://www.geeksforgeeks.org/introduction-to-artificial-neutral-networks/
+
+7.	https://www.geeksforgeeks.org/introduction-artificial-neural-network-set-2/
+
+8.	https://www.geeksforgeeks.org/introduction-ann-artificial-neural-networks-set-3-hybrid-systems/
+
+9.	https://www.geeksforgeeks.org/introduction-to-ann-set-4-network-architectures/
+
+10.	https://skymind.ai/wiki/neural-network
+
