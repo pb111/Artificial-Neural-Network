@@ -158,6 +158,113 @@
 
 ===============================================================================
 
+## 5. ANN architectures
+-	The way that individual artificial neurons are interconnected is called **topology**, **architecture** or **graph of an ANN**.
+-	The interconnection can be done in numerous ways results in numerous possible topologies (architectures) that are divided into two basic classes.
+-	The figure below shows these two topologies.
+-	The left side of the figure represent **simple feed-forward topology** (acyclic graph) where information flows from inputs to outputs in only one direction.
+-	The right side of the figure represent **simple recurrent topology** (semi cyclic graph) where information flows not only in one direction from input to output but also in opposite direction.
+
+### Feed-forward (FNN) and recurrent (RNN) topology of an Artificial Neural Network
+![Feed-forward (FNN) and recurrent (RNN) topology of an Artificial Neural Network](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/FNN%20and%20RNN%20topology.jpg)
+-	
+-	The ANN architecture comprises of :
+a.	Input layer: Receives the input values.
+b.	Hidden layer(s): A set of neurons between input and output layers. There can be single or multiple layers.
+c.	Output layer: Usually, it has one neuron and its output ranges between 0 and 1. But, multiple outputs can also be present.
+-	The ANN architecture can be represented diagrammatically as follows:-
+
+### ANN Architecture
+![ANN Architecture](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/ANN%20architecture.jpg)
+
+
+-	Neural Networks are known to be universal function approximators.
+-	Various ANN architectures are available to approximate any non-linear function.
+-	Different architectures allow to generate functions with different complexity and power.
+-	These different types of architectures are discussed below.
+
+### 5.1 Feed-forward ANNs
+
+-	ANN with feed-forward topology is called **Feed-Forward ANN**.
+-	It has only one condition – information must flow from input to output in forward direction.
+-	The simplest feed-forward ANN is a single perceptron that is only capable of learning linear separable problems.
+-	There are no limitations on number of layers, type of transfer functions or number of connections between individual artificial neurons. 
+-	**Input layer** - Number of neurons in this layer corresponds to the number of inputs to the neural network. This layer consists of passive nodes. These nodes do not take part in the actual signal modification, but only transmits the signal to the following layer.
+-	**Hidden layer** - This layer has arbitrary number of layers with arbitrary number of neurons. The nodes in this layer take part in the signal modification. Hence, they are active. 
+-	**Output layer** - The number of neurons in the output layer corresponds to the number of output values of the neural network. The nodes in this layer are active ones.
+-	**Feed Forward Neural Network** (FFNN) can have more than one hidden layer.
+-	However, it has been proved that FFNNs with one hidden layer has enough to approximate any continuous function.
+
+
+### 5.2 Recurrent ANNs
+
+-	ANN with recurrent topology is called **Recurrent Artificial Neural Network**.
+-	It is similar to feed-forward neural network with no limitations on back loops.
+-	In these cases information is no longer transmitted only in forward direction but it is also transmitted backwards.
+-	This creates an internal state of the network which allows it to exhibit dynamic temporal behaviour.
+-	Recurrent ANNs can use their internal memory to process any sequence of inputs. 
+-	The most basic topology of recurrent artificial neural network is fully recurrent artificial network where every basic building block (artificial neuron) is directly connected to every other basic building block in all direction. 
+-	Other recurrent artificial neural networks such as Hopfield, Elman, Jordan, bi-directional and other networks are just special cases of recurrent artificial neural networks.
+
+### 5.3 Hopfield ANNs
+
+-	A Hopfield artificial neural network is a type of recurrent artificial neural network that is
+      used to store one or more stable target vectors. 
+-	These stable vectors can be viewed as memories that the network recalls when provided with similar vectors that act as a cue to the network memory. 
+-	These binary units only take two different values for their states that are determined by whether or not the units' input exceeds their threshold. 
+-	Binary units can take either values of 1 or -1, or values of 1 or 0. Consequently there are two possible definitions for binary unit activation.
+
+### 5.4 Elman and Jordan ANNs
+
+-	Elman network also referred as **Simple Recurrent Network** is special case of recurrent artificial neural networks. 
+-	It differs from conventional two-layer networks in that the first layer has a recurrent connection. 
+-	It is a simple three-layer artificial neural network that has back-loop from hidden layer to input layer trough so called context unit. 
+-	This type of artificial neural network has memory that allow it to both detect and generate time-varying patterns. 
+-	The Elman artificial neural network has typically sigmoid artificial neurons in its hidden
+      layer, and linear artificial neurons in its output layer.  
+-	This combination of artificial neurons transfer functions can approximate any function with arbitrary accuracy if only there is enough artificial neurons in hidden layer. 
+-	Being able to store information Elman artificial neural network is capable of generating temporal patterns as well as spatial patterns and responding on them. 
+-	The only difference is that context units are fed from the output layer instead of the hidden layer.
+
+### 5.5 Long Short Term Memory
+
+-	**Long Short Term Memory** is one of the recurrent artificial neural networks topologies. 
+-	In contrast with basic recurrent artificial neural networks it can learn from its experience to process, classify and predict time series with very long time lags of unknown size between important events. 
+-	This makes Long Short Term Memory to outperform other recurrent artificial neural networks, Hidden Markov Models and other sequence learning methods. 
+-	Long Short Term Memory artificial neural network is build from Long Short Term Memory blocks that are capable of remembering value for any length of time. 
+-	This is achieved with gates that determine when the input is significant enough remembering it, when continue to remembering or forgetting it, and when to output the value.
+
+### 5.6 Bi-directional Artificial Neural Networks (Bi-ANN)
+
+-	**Bi-directional ANNs** are designed to predict complex time series. 
+-	They consist of two individual interconnected artificial neural (sub) networks that performs direct and inverse (bidirectional) transformation. 
+-	Interconnection of artificial neural sub networks is done through two dynamic artificial neurons that are capable of remembering their internal states. 
+-	This type of interconnection between future and past values of the processed signals increase time series prediction capabilities. 
+-	As such these artificial neural networks not only predict future values of input data but also past values. 
+-	That brings need for two phase learning; in first phase we teach one artificial neural sub network for predicting future and in the second phase we teach a second artificial neural sub network for predicting past.
+
+
+### 5.7 Self-Organizing Map (SOM)
+
+-	**Self-organizing map (SOM)** is an artificial neural network that is related to feed-forward networks but it needs to be told that this type of architecture is fundamentally different in arrangement of neurons and motivation. 
+-	Common arrangement of neurons is in a hexagonal or rectangular grid. 
+-	Self-organizing map is different in comparison to other artificial neural networks in the sense that they use a neighbourhood function to preserve the topological properties of the input space. 
+-	They uses unsupervised learning paradigm to produce a low-dimensional, discrete representation of the input space of the training samples, called a map what makes them especially useful for visualizing low-dimensional views of high-dimensional data. 
+-	Such networks can learn to detect regularities and correlations in their input and adapt their future responses to that input accordingly.
+
+### 5.8 Stochastic Artificial Neural Network
+
+-	Stochastic artificial neural networks are a type of an artificial intelligence tool. 
+-	They are built by introducing random variations into the network, either by giving the network's neurons stochastic transfer functions or by giving them stochastic weights. 
+-	This makes them useful tools for optimization problems, since the random fluctuations help it escape from local minima. 
+-	Stochastic neural networks that are built by using stochastic transfer functions are often called **Boltzmann machine**.
+
+### 5.9 Physical Artificial Neural Network
+
+-	Most of the artificial neural networks today are software-based but that does not exclude the possibility to create them with physical elements which base on adjustable electrical current resistance materials. 
+-	Although these artificial neural networks were commercialized they did not last for long due to their incapability for scalability. 
+-	After this attempt several others followed such as attempt to create physical artificial neural network based on nanotechnology or phase change material.
+
 ===============================================================================
 
 ===============================================================================
