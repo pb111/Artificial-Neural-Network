@@ -343,10 +343,18 @@ The nodes in this layer are active ones.
 
 -	Applications of ANN include:-
 
-1.	**Classification** – the aim is to predict the class of an input vector.
-2.	**Pattern matching** – the task is to produce the best matching pattern associated with a given input vector.
-3.	**Optimization** – the task is to find the optimal values of parameters in an optimization problem.
-4.	**Function approximation** - the aim is to learn the functional relationships between input and desired output vectors.
-5.	**Data mining** - the aim is to discover hidden patterns in the data.
+1.	**Handwriting recognition** - we can use neural networks to recognize handwritten characters.
+2.	**Speech recognition** - speech occupies a prominent role in human-human interaction. Neural networks can be used for speech recognition.
+3.	**Character recognition** - neural networks have been used for character recognition.
+4.	**Classification** – the aim is to predict the class of an input vector.
+5.	**Pattern matching** – the task is to produce the best matching pattern associated with a given input vector.
+6.	**Image compression** - vast amounts of information is received and processed at once by neural networks.
+7.	**Stock exchange prediction** - neural networks can be used to predict stock prices.
+8.	**Optimization** – the task is to find the optimal values of parameters in an optimization problem.
+9.	**Function approximation** - the aim is to learn the functional relationships between input and desired output vectors.
+10.	**Data mining** - the aim is to discover hidden patterns in the data.
+
+
+
 
 ===============================================================================
