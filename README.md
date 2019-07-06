@@ -277,6 +277,43 @@ The nodes in this layer are active ones.
 
 ===============================================================================
 
+## 6. Learning Process in Neural Networks
+-	The **learning process** in ANN can be viewed as the problem of updating network architecture and connection weights so that a network can perform a specific task.
+-	**Learning** implies that a processing unit is capable of changing its input output behaviour as a result of changes in the environment.
+-	The network learn the connection weights from available training patterns.
+-	Performance is improved over time by iteratively updating the weights in the network.
+-	The learning methods in neural networks are classified into three basic types :–
+      - Supervised learning
+      - Unsupervised learning
+      - Reinforced learning
+      
+-	These three types are classified based on :-
+o	presence or absence of teacher
+o	the information provided for the system to learn
+-	These learning methods are further categorized, based on the rules used as follows:-
+o	Hebbian
+o	Gradient descent
+o	Competitive
+o	Stochastic learning
+
+### 6.1 Supervised Learning
+-	A teacher is present during learning process and presents expected output.
+-	Every input pattern is used to train the network.
+-	Learning process is based on comparison, between network’s computed output and the correct expected output, generating `error`.
+-	The `error` generated is used to change network parameters that result in improved performance.
+-	The **back-propagation algorithm** belongs to this category.
+
+### 6.2 Unsupervised Learning
+-	No teacher is present.
+-	So, expected or desired output is not presented to the network.
+-	The system learns of its own by discovering and adapting to the structural features in the input pattern.
+-	The **Kohonen algorithm** belongs to this category.
+
+### 6.3 Reinforced Learning
+-	A teacher is present but does not present the expected or desired output but only indicated if the computed output is correct or incorrect.
+-	The information provided helps the network in the learning process.
+-	A reward is given for correct answer computed and a penalty for a wrong answer.
+
 ===============================================================================
 
 ===============================================================================
