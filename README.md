@@ -354,7 +354,6 @@ The nodes in this layer are active ones.
 9.	**Function approximation** - the aim is to learn the functional relationships between input and desired output vectors.
 10.	**Data mining** - the aim is to discover hidden patterns in the data.
 
-
-
-
 ===============================================================================
+
+## 10. References
