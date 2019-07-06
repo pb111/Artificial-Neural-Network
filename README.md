@@ -194,7 +194,7 @@ c.	Output layer: Usually, it has one neuron and its output ranges between 0 and 
 -	**Output layer** - The number of neurons in the output layer corresponds to the number of output values of the neural network. The nodes in this layer are active ones.
 -	**Feed-forward Neural Network** (FFNN) can have more than one hidden layer.
 -	However, it has been proved that FFNNs with one hidden layer has enough to approximate any continuous function.
--     **Feed-forward Neural Network** can be represented with the following diagram-
+-     Feed-forward Neural Network can be represented with the following diagram-
 
 ### Feed-forward Neural Network
 ![Feed-forward Neural Network](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Feed-forward%20neural%20network.jpg) 
