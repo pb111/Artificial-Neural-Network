@@ -210,6 +210,11 @@ The nodes in this layer are active ones.
 -	Recurrent ANNs can use their internal memory to process any sequence of inputs. 
 -	The most basic topology of recurrent artificial neural network is fully recurrent artificial network where every basic building block (artificial neuron) is directly connected to every other basic building block in all direction. 
 -	Other recurrent artificial neural networks such as Hopfield, Elman, Jordan, bi-directional and other networks are just special cases of recurrent artificial neural networks.
+- Recurrent neural network can be represented diagrammatically as follows:-
+
+### Recurrent Neural Network
+![Recurrent Neural Network](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Recurrent%20Neural%20Network.jpg)
+
 
 ### 5.3 Hopfield ANNs
 
