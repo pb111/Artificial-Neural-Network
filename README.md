@@ -93,7 +93,7 @@
 -	The neuron has a function that determines the activation of the neuron.
 -	The diagram below demonstrates the artificial neuron model and activation function.
 
-### Artiicial Neuron Model and Activation Function
+### Artificial Neuron Model and Activation Function
 ![Artificial Neuron Model](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/artificial%20neurons%20model.png)
 
 
@@ -101,7 +101,7 @@
 
 -	The diagram below demonstrates working of artificial neural network model.
 
-### Working Principle of Artiicial Neurons
+### Working Principle of Artificial Neurons
 ![Working Principle of Artificial Neurons](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Working%20principle%20of%20artificial%20neural%20network%20model.jpg)
 
 -	At the entrance of artificial neuron the inputs are weighted. It means that every input value is multiplied with individual weight.
@@ -147,7 +147,7 @@
 -	An Artificial Neural Network (ANN) is a mathematical model that tries to simulate the structure and functionalities of biological neural networks.
 - The diagram below represent the similarities between biological neuron and artificial neural network.
 
-### Biological Neurons vs Artiicial Neural Network]
+### Biological Neurons vs Artificial Neural Network]
 ![Biological Neuron Vs Artificial Neural Network](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/biological%20neuron%20vs%20ANN.png)
 
 
