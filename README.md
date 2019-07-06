@@ -59,7 +59,7 @@
 -	ANNs are software implementations of the neuronal structure of our brains.
 -	So, first I will discuss functionality of the human brain.
 
-### The Human Brain
+### 4.1 The Human Brain
 
 -	The human brain is very capable. It has the ability to learn new things, adapt and work accordingly to changing environment. 
 -	Our brain can analyze incomplete and unclear information and take decisions.
@@ -67,7 +67,7 @@
 -	The basic building block of the brain is **biological neuron**.
 
 
-### Biological Neurons
+### 4.2 Biological Neurons
 
 -	The brain contains about 1010 (100 billion) basic units called **neurons** or biological neurons.
 -	Each neuron can connect to about 104 other neurons.
@@ -86,7 +86,7 @@
 -	A huge number of such neurons work simultaneously.
 -	The brain has the capacity to store large amounts of data.
 
-### Artificial Neurons
+### 4.3 Artificial Neurons
 
 -	An artificial neuron tries to replicate the structure and behaviour of biological neurons.
 -	It consists of inputs (dendrites) and one output (synapse via axon).
@@ -96,7 +96,7 @@
 ![Artificial Neuron Model](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/artificial%20neurons%20model.png)
 
 
-### Working principle of Artificial Neurons
+### 4.4 Working principle of Artificial Neurons
 
 -	The diagram below demonstrates working of artificial neural network model.
 
@@ -108,7 +108,7 @@
 -	So, the body of an artificial neuron then sums the weighted inputs, bias and then processes the sum with a transfer function.
 -	At the exit of artificial neuron, the sum of previously weighted inputs and bias passed through activation function which is also called transfer function.
 
-### Transfer function
+### 4.5 Transfer function
 
 -	We can see from the artificial neuron model that the major unknown variable in the model is the **transfer function**.
 -	Transfer function defines the properties of artificial neuron and can take any mathematical form.
@@ -139,7 +139,7 @@
 -	It is important when calculating weight updates in ANN.
 
 
-### Artificial Neural Network (ANN)
+### 4.6 Artificial Neural Network (ANN)
 
 -	When we combine two or more artificial neurons, we get an Artificial Neural Network (ANN).
 -	An Artificial Neural Network (ANN) is a mathematical model that tries to simulate the structure and functionalities of biological neural networks.
