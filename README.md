@@ -1,5 +1,8 @@
 # Artificial Neural Network Project
 
+Artificial Neural Network (ANN) imitates the functioning of human brain. I discuss ANN fundamentals, its structure and functioning, 
+
+ANN architectures, learning process, back-propagation algorithm, its advantages and disadvantages and ANN applications.
 
 ===============================================================================
 
@@ -21,9 +24,11 @@
       
       4.4	Working principle of artificial neurons
       
-      4.5	Transfer function
+      4.5   Perceptron
       
-      4.6	Artificial Neural Network
+      4.6	Transfer function
+      
+      4.7	Artificial Neural Network
       
 5.	ANN architectures
 
@@ -165,7 +170,34 @@
 -	So, the body of an artificial neuron then sums the weighted inputs, bias and then processes the sum with a transfer function.
 -	At the exit of artificial neuron, the sum of previously weighted inputs and bias passed through activation function which is also called transfer function.
 
-### 4.5 Transfer function
+
+### 4.5 Perceptron
+
+-	A single layer of artificial neurons is called **Perceptron**.
+-	A multi-layer of artificial neurons or multi-layer perceptron is called **Neural Networks**.
+-	Perceptron is a linear binary classifier.
+-	It is used in supervised learning.
+-	It helps to classify the given input data. 
+-	The perceptron consists of 4 parts.
+      - Input values or One input layer
+      - Weights and Bias
+      - Net sum
+      - Activation Function
+
+-	The perceptron can be represented diagrammatically as follows:-
+
+### Perceptron
+![Perceptron]
+
+
+-	The perceptron works as follows:-
+
+1.	All the inputs x are multiplied with their weights w.
+2.	Add all the multiplied values and call them Weighted Sum.
+3.	Apply that weighted sum to the correct Activation Function.
+
+
+### 4.6 Transfer function
 
 -	We can see from the artificial neuron model that the major unknown variable in the model is the **transfer function**.
 -	Transfer function defines the properties of artificial neuron and can take any mathematical form.
@@ -196,7 +228,7 @@
 -	It is important when calculating weight updates in ANN.
 
 
-### 4.6 Artificial Neural Network (ANN)
+### 4.7 Artificial Neural Network (ANN)
 
 -	When we combine two or more artificial neurons, we get an Artificial Neural Network (ANN).
 -	An Artificial Neural Network (ANN) is a mathematical model that tries to simulate the structure and functionalities of biological neural networks.
