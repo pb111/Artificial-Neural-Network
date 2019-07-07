@@ -1,6 +1,6 @@
 # Artificial Neural Network Project
 
-Artificial Neural Network (ANN) imitates the functioning of human brain. I discuss ANN fundamentals, its structure and functioning, 
+**Artificial Neural Network (ANN)** imitates the functioning of human brain. I discuss ANN fundamentals, its structure and functioning, 
 ANN architectures, learning process, back-propagation algorithm, its advantages and disadvantages and ANN applications.
 
 ===============================================================================
