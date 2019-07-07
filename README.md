@@ -186,14 +186,22 @@ ANN architectures, learning process, back-propagation algorithm, its advantages 
 -	The perceptron can be represented diagrammatically as follows:-
 
 ### Perceptron
-![Perceptron]
+![Perceptron](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Perceptron.jpg)
 
 
 -	The perceptron works as follows:-
 
 1.	All the inputs x are multiplied with their weights w.
+
+![inputs are multiplied by weights](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/inputs%20are%20multiplied%20by%20weights.png)
+
 2.	Add all the multiplied values and call them Weighted Sum.
+
+![weighted sum](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Weighted%20sum.gif)
+
 3.	Apply that weighted sum to the correct Activation Function.
+
+![apply the weights to activation function](https://github.com/pb111/Artificial-Neural-Network/blob/master/Images/Activation%20function.png)
 
 
 ### 4.6 Transfer function
